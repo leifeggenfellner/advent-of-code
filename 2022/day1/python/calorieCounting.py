@@ -1,4 +1,4 @@
-with open('./input.txt', 'r') as f:
+with open('../input.txt', 'r') as f:
     data = [calories.split('\n') for calories in f.read().split('\n\n')]
     data = [list(map(int, value)) for value in data]
 
