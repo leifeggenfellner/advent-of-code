@@ -10,4 +10,8 @@ for calorie in data:
     else:
         tempList.append(int(calorie))
 
+# part one
 print(max(sum(calorieList) for calorieList in inventory))
+
+# part two
+print(sum(sorted(sum(calorieList) for calorieList in inventory)[-3:]))
