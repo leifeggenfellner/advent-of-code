@@ -1,7 +1,5 @@
 with open('./input.txt', 'r') as f:
-    data = f.read().splitlines()
-    data = [calorieList.split() for calorieList in " ".join([calorie if calorie !=
-                                                             '' else '\t' for calorie in data]).split('\t')]
+    data = [calories.split('\n') for calories in f.read().split('\n\n')]
     data = [list(map(int, value)) for value in data]
 
 # part one
