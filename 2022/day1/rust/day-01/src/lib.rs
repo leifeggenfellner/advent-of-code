@@ -13,7 +13,18 @@ pub fn process_part1(input: &str) -> String {
 }
 
 pub fn process_part2(input: &str) -> String {
-    "works".to_string()
+    let mut result = input
+        .split("\n\n")
+        .map(|calories| {
+            calories
+                .lines()
+                .map(|calorie_value| calorie_value.trim().parse::<u32>().unwrap())
+                .sum::<u32>()
+        })
+        .collect::<Vec<_>>();
+    result.sort_by(|a, b| b.cmp(a));
+    let sum: u32 = result.iter().take(3).sum();
+    sum.to_string()
 }
 
 #[cfg(test)]
