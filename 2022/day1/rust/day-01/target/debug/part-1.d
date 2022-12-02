@@ -1,0 +1,1 @@
+/Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2022/day1/rust/day-01/target/debug/part-1: /Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2022/day1/rust/day-01/src/bin/part-1.rs /Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2022/day1/rust/day-01/src/lib.rs
