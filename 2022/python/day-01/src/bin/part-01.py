@@ -1,10 +1,10 @@
 from helpers import process_part1
+from pathlib import Path
 
 
 def main():
-    with open("./input.txt") as f:
-        data = f.read()
-
+    input_file = Path(__file__).parents[2] / "input.txt"
+    data = input_file.read_text()
     print(process_part1(data))
 
 
