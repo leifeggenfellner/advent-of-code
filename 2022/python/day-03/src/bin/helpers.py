@@ -1,6 +1,6 @@
 def process_part1(rucksacks: str) -> int:
     sorting_letters = [
-        letter for rucksack in rucksacks.splitlines() for letter in set(rucksack) if letter in rucksack[:len(rucksack) // 2] and letter in rucksack[len(rucksack) // 2:]]
+        letter for rucksack in rucksacks.splitlines() for letter in set(rucksack[:len(rucksack) // 2]) if letter in rucksack[len(rucksack) // 2:]]
     return sum(ord(letter) - 96 if letter.islower() else ord(letter) - 38 for letter in sorting_letters)
 
 
