@@ -27,4 +27,4 @@ def process_part2(pairs: str) -> int:
         if pair1Numbers.intersection(pair2Numbers):
             total += 1
 
-    return 2
+    return total
