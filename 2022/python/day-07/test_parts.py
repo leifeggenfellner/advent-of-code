@@ -31,6 +31,5 @@ def test_part1():
     assert process_part1(INPUT) == 95437
 
 
-@pytest.mark.skip(reason="Not implemented yet")
 def test_part2():
-    assert process_part2(INPUT) == 19
+    assert process_part2(INPUT) == 24933642
