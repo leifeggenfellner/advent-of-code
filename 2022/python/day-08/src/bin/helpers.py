@@ -35,7 +35,6 @@ def process_part2(data: str) -> int:
                 if grid_map[number][column] >= current_tile:
                     break
 
-            if up * down * left * right > answer:
-                answer = up * down * left * right
+            answer = max(answer, up * down * left * right)
 
     return answer
