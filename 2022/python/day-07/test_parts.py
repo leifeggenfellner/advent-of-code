@@ -1,5 +1,4 @@
 from src.bin.helpers import process_part1, process_part2
-import pytest
 
 
 INPUT = """$ cd /
