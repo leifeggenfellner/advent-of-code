@@ -31,9 +31,8 @@ Monkey 3:
 
 
 def test_part1():
-    assert process_part1(INPUT) == 13140
+    assert process_part1(INPUT) == 10605
 
 
-@pytest.mark.skip(reason="Not implemented yet")
 def test_part2():
-    assert process_part2(INPUT) == 0
+    assert process_part2(INPUT) == 2713310158
