@@ -14,7 +14,7 @@ def process_part1(data: str) -> int:
     return sum(a * b for a, b in list(enumerate(register_values))[20::40])
 
 
-def process_part2(data: str) -> int:
+def process_part2(data: str) -> str:
     X = 1
     register_values = []
 
