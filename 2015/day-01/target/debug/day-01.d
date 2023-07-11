@@ -1,0 +1,1 @@
+/Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2015/day-01/target/debug/day-01: /Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2015/day-01/src/main.rs /Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2015/day-01/src/part1.rs /Users/leif/Code/src/github/leifeggenfellner/advent-of-code/2015/day-01/src/part2.rs
