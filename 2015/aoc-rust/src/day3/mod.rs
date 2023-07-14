@@ -8,6 +8,7 @@ fn get_input() -> String {
     file.read_to_string(&mut contents).unwrap();
     contents
 }
+
 fn part1() -> i32 {
     let input = get_input();
     let mut coordinates: HashSet<(i32, i32)> = HashSet::new();
